@@ -1,5 +1,5 @@
 // Google Analytics 4. Replace the ID below with your Measurement ID (G-XXXXXXXXXX).
-const GA_MEASUREMENT_ID = 'G-N5L5YC1E78';
+const GA_MEASUREMENT_ID = 'G-4R4R5YELVW';
 
 if (GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
   const s = document.createElement('script');

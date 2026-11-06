@@ -1,3 +1,3 @@
-# vis4dh
+# Visualization for Digital Humanities 
 
-Static site (HTML/CSS/JS), hosted on GitHub Pages.
+

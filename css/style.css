@@ -7,6 +7,7 @@
 }
 
 html {
+  -webkit-text-size-adjust: 100%;
   min-height: 100%;
   box-sizing: border-box;
   font-size: 62.5%;
@@ -51,6 +52,7 @@ img {
 
 .c-menu.menu-show {
   height: 100vh;
+  overflow-y: auto;
 }
 
 .persistent-menu {
@@ -84,7 +86,7 @@ img {
   padding: 2.5rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1280px) {
   .c-navigation {
     text-align: center;
   }
@@ -236,7 +238,9 @@ img {
 .grid-item { text-align: center; font-size: 90%; }
 .grid-item .minipic {
   width: 150px;
-  height: 150px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -275,3 +279,15 @@ img {
 .c-article__main th, .c-article__main td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
 .c-article__main td:first-child { white-space: nowrap; width: 1%; padding-right: 2rem; }
 
+
+/* ---------- small screens ---------- */
+@media screen and (max-width: 800px) {
+  .c-article__main td:first-child { white-space: normal; width: auto; }
+  .grid-container { grid-template-columns: 1fr 1fr; row-gap: 30px; }
+  .paper-list { padding: 0 1.5rem 3rem; }
+  .paper-card { width: 100%; max-width: 280px; }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container { grid-template-columns: 1fr; }
+}

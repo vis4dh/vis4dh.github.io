@@ -196,9 +196,8 @@ img {
 
 /* ---------- footer ---------- */
 .c-footer {
-  padding: 14.1rem 2.5rem 0;
+  padding: 3rem 2.5rem;
   width: 100%;
-  height: 300px;
   background: #fafafa;
 }
 
@@ -262,21 +261,8 @@ img {
 .paper-authors { font-weight: bold; }
 .paper-year { margin-top: 0.5em; }
 
-/* ---------- tables and placeholders ---------- */
+/* ---------- tables ---------- */
 .c-article__main table { border-collapse: collapse; width: 100%; font-size: 90%; }
 .c-article__main th, .c-article__main td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
 .c-article__main td:first-child { white-space: nowrap; width: 1%; padding-right: 2rem; }
 
-.minipic-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 150px;
-  margin: 0 auto 20px;
-  border-radius: 50%;
-  background: #d9dde3;
-  color: #5b6573;
-  font-size: 4rem;
-  font-weight: 600;
-}

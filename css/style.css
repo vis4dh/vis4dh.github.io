@@ -15,10 +15,16 @@ html {
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
+
+/* keeps the footer at the bottom of the window on short pages */
+.c-article { flex: 1; }
 
 img {
   max-width: 100%;
@@ -196,9 +202,10 @@ img {
 
 /* ---------- footer ---------- */
 .c-footer {
-  padding: 3rem 2.5rem;
+  padding: 1.5rem 2.5rem;
   width: 100%;
-  background: #fafafa;
+  background: #003746;
+  color: #fff;
 }
 
 .c-footer__container {
@@ -213,7 +220,7 @@ img {
 
 .c-footer a {
   text-decoration: none;
-  color: #3f51b5;
+  color: #fff;
 }
 
 .c-footer a:not(:first-of-type) {
@@ -247,11 +254,13 @@ img {
 }
 .paper-card {
   width: 280px;
-  padding: 5px;
-  background: #f1efef;
-  text-align: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  text-align: left;
 }
-.paper-card img { max-width: 100%; }
+.paper-card img { display: block; width: 100%; height: auto; border-radius: 6px; }
 .paper-title {
   margin: 0.5em 0;
   color: #3f51b5;

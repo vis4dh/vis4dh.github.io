@@ -2,10 +2,10 @@
 // Each page includes <script src="js/nav.js"></script> where the nav should appear.
 (function () {
   const pages = [
-    ['cfp.html', 'CfP'],
-    ['schedule.html', 'Schedule'],
-    ['invitedtalks.html', 'Capstone'],
-    ['accepted.html', 'Accepted Contributions'],
+    // ['cfp.html', 'CfP'],
+    // ['schedule.html', 'Schedule'],
+    // ['invitedtalks.html', 'Capstone'],
+    // ['accepted.html', 'Accepted Contributions'],
     ['committee.html', 'Organizers'],
     ['paperarchive.html', 'Past Papers'],
     ['labtalks.html', 'VIS4DH Labs'],
